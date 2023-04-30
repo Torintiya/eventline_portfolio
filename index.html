@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Jura:wght@500&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Days+One&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <main>
+    <section class="wrap">
+      <div class="center">
+        <h2 class="title"><span style="font-family: Days One">Наши преимущества</span></h2>
+        <div class="content_wrap">
+
+          <div class="content_block">
+            <figure class="content_item">
+              <img class="content_img" src="img/icon (1).svg" alt="range" />
+              <figcaption class="content_text">
+                Разнообразный <br> ассортимент
+              </figcaption>
+            </figure>
+
+            <figure class="content_item">
+              <img class="content_img" src="img/icon (6).svg" alt="care" />
+              <figcaption class="content_text">Забота о клиенте</figcaption>
+            </figure>
+
+            <figure class="content_item">
+              <img class="content_img" src="img/icon (2).svg" alt="quality" />
+              <figcaption class="content_text">
+                Качество и лицензии
+              </figcaption>
+            </figure>
+
+          </div>
+
+          <div class="content_block content_block_bottom">
+
+            <figure class="content_item">
+              <img class="content_img" src="img/icon (4).svg" alt="efficiency" />
+              <figcaption class="content_text">
+                Оперативность <br> установки
+              </figcaption>
+            </figure>
+
+            <figure class="content_item">
+              <img class="content_img" src="img/icon (3).svg" alt="prices" />
+              <figcaption class="content_text">Лояльные цены</figcaption>
+            </figure>
+
+            <figure class="content_item">
+              <img class="content_img" src="img/icon (5).svg" alt="surprises" />
+              <figcaption class="content_text">
+                Приятные сюрпризы
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap">
+      <div class="center">
+        <h2 class="title">Портфолио</h2>
+        <div class="portfolio">
+          <div class="foto foto_left_1">
+            <img class="foto_bigger" src="img/6.png" alt="firework" />
+          </div>
+
+          <div class="foto foto_left_2">
+            <div class="foto_bottom">
+              <img class="foto_margin foto_small" src="img/Foto2.svg" alt="firework" />
+              <img class="foto_small" src="img/Foto3.svg" alt="wedding" />
+            </div>
+            <img class="foto_bigger foto_adaptiv_1" src="img/4.png" alt="burning heart" />
+          </div>
+          <div class="foto foto_top">
+            <a class="link" href="#">Посмотреть все &#8594;</a>
+            <img class="foto_bigger foto_adaptiv" src="img/5.png" alt="fireworks track" />
+            <div class="foto_right foto_adaptiv_2">
+              <img class="foto_margin foto_small" src="img/7.png" alt="fireworks" />
+              <img class="foto_small" src="img/Foto7.svg" alt="fireworks" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Слайдер -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide slide1"><img class="img_slide" src="img/slide_3.png" alt="fireworks track" />
+        </div>
+        <div class="swiper-slide slide2"><img class="img_slide" src="img/slide2.png" alt="firework" /></div>
+        <div class="swiper-slide slide3"><img class="img_slide" src="img/slide_1.png" alt="burning heart" />
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+    <div class="slide_link"> <a class="link" href="#">Посмотреть все &#8594;</a></div>
+    <!-- Слайдер -->
+
+  </main>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    let swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+  <!-- Конец JS слайдера -->
+
+</body>
+
+</html>
